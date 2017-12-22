@@ -1,0 +1,128 @@
+{
+	"name":"maspap07",
+	"url":"/modules/dynamic/panel.html",
+	"parameters":{
+		"sql_participant" : "@('Volunteer_ID')+' '+@('Initials')+' '+@('DOB')"
+	},
+	"panel":
+	{
+		"columns":
+		[
+			{
+				"sections":[{"name":"Participants","modules":[
+					{"module_id":"participant","name":"Participants","table_id":"20004263","url":"/modules/dynamic/maspap07/participant.html","counting":"1"}
+					]}]
+			}
+			,{
+				"sections":[
+					{"name":"2. MAS Assessment","modules":[
+					{"module_id":"m_001_001","name":"MAS Issue","table_id":"20005525","url":"/modules/dynamic/maspap07/task/mas_issue.html","counting":"1"}
+					,{"module_id":"m_001_002","name":"MAS Assessment Report","table_id":"20005524","url":"/modules/dynamic/maspap07/task/mas_assessment_report.html","counting":"1"}
+							]},
+					{"name":"3. Randomisation / Screening","modules":[
+						{"module_id":"m_002_001","name":"Randomisation","table_id":"20005526","url":"/modules/dynamic/maspap07/task/randomisation.html","counting":"1"}
+						]},
+						{"name":"4. Baseline Evaluation","modules":[
+						{"module_id":"m_003_001","name":"Anthropometry","table_id":"20005527","url":"/modules/dynamic/maspap07/task/anthropometry.html","counting":"1"}
+						,{"module_id":"m_003_002","name":"Extended Anthropometry","table_id":"20005528","url":"/modules/dynamic/maspap07/task/anthropometry_extended.html","counting":"1"}
+						,{"module_id":"m_003_003","name":"24 hour ABPM","table_id":"20005529","url":"/modules/dynamic/maspap07/task/abpm.html","counting":"1"}
+						,{"module_id":"m_003_004","name":"Pulse Wave Analysis","table_id":"20005530","url":"/modules/dynamic/maspap07/task/pwa.html","counting":"1"}
+						,{"module_id":"m_003_005","name":"AusEd Files","table_id":"20005531","url":"/modules/dynamic/maspap07/task/document_3.html","counting":"1"}
+						,{"module_id":"m_003_006","name":"AusEd Upload","table_id":"20005532","url":"/modules/dynamic/maspap07/task/aused_upload.html","counting":"1"}
+						,{"module_id":"m_003_007","name":"AusEd Data","table_id":"20005533","url":"/modules/dynamic/maspap07/task/aused.html","counting":"1"}
+						,{"module_id":"m_003_008","name":"ESS","table_id":"20005535","url":"/modules/dynamic/maspap07/task/ess.html","counting":"1"}
+						,{"module_id":"m_003_009","name":"FOSQ","table_id":"20005536","url":"/modules/dynamic/maspap07/task/fosq.html","counting":"1"}
+						,{"module_id":"m_003_010","name":"SF-36","table_id":"20005537","url":"/modules/dynamic/maspap07/task/sf36.html","counting":"1"}
+						,{"module_id":"m_003_011","name":"MASPAP Questionnaire","table_id":"20005538","url":"/modules/dynamic/maspap07/task/maspap_questionnaire.html","counting":"1"}
+						,{"module_id":"m_003_012","name":"PSG Alice","table_id":"20005539","url":"/modules/dynamic/maspap07/task/psg_alice.html","counting":"1"}
+						,{"module_id":"m_003_013","name":"PSG Compumedics","table_id":"20005540","url":"/modules/dynamic/maspap07/task/psg_compumedics.html","counting":"1"}
+						,{"module_id":"m_003_014","name":"PSG Sandman","table_id":"20005541","url":"/modules/dynamic/maspap07/task/psg_sandman.html","counting":"1"}
+						,{"module_id":"m_003_015","name":"PSG Non WIMR","table_id":"20005542","url":"/modules/dynamic/maspap07/task/document_1.html","counting":"1"}
+					]},
+							{"name":"5. CPAP Assessment","modules":[
+								{"module_id":"m_004_001","name":"CPAP Assessment Report","table_id":"20005543","url":"/modules/dynamic/maspap07/task/document_1.html","counting":"1"}
+								]},
+								{"name":"6. CPAP Run-In","modules":[
+								{"module_id":"m_005_001","name":"CPAP Run-In Download","table_id":"20005544","url":"/modules/dynamic/maspap07/task/document_3.html","counting":"1"}
+								,{"module_id":"m_005_002","name":"CPAP Run-In Objective Data Summary","table_id":"20005545","url":"/modules/dynamic/maspap07/task/cpap_summary.html","counting":"1"}
+								]},
+								{"name":"7. Run-In Washout","modules":[
+									{"module_id":"m_006_001","name":"ESS","table_id":"20005546","url":"/modules/dynamic/maspap07/task/ess.html","counting":"1"}
+								]}
+					]}
+					,{
+						"sections":[
+							{"name":"8. Treatment Arm 1 End Point Evaluation","modules":[
+								{"module_id":"m_007_001","name":"24 hour ABPM ","table_id":"20005547","url":"/modules/dynamic/maspap07/task/abpm.html","counting":"1"}
+								,{"module_id":"m_007_002","name":"Pulse Wave Analysis","table_id":"20005548","url":"/modules/dynamic/maspap07/task/pwa.html","counting":"1"}
+								,{"module_id":"m_007_003","name":"AusEd Files","table_id":"20005549","url":"/modules/dynamic/maspap07/task/document_3.html","counting":"1"}
+								,{"module_id":"m_007_004","name":"AusEd Upload","table_id":"20005550","url":"/modules/dynamic/maspap07/task/aused_upload.html","counting":"1"}
+								,{"module_id":"m_007_005","name":"AusEd Data","table_id":"20005551","url":"/modules/dynamic/maspap07/task/aused.html","counting":"1"}
+								,{"module_id":"m_007_006","name":"ESS","table_id":"20005552","url":"/modules/dynamic/maspap07/task/ess.html","counting":"1"}
+								,{"module_id":"m_007_007","name":"FOSQ","table_id":"20005553","url":"/modules/dynamic/maspap07/task/fosq.html","counting":"1"}
+								,{"module_id":"m_007_008","name":"SF-36","table_id":"20005554","url":"/modules/dynamic/maspap07/task/sf36.html","counting":"1"}
+								,{"module_id":"m_007_009","name":"MAS Usage and Side Effects Questionnaire","table_id":"20005555","url":"/modules/dynamic/maspap07/task/mas_evaluation.html","counting":"1"}
+								,{"module_id":"m_007_010","name":"CPAP Usage and Side Effects Questionnaire","table_id":"20005556","url":"/modules/dynamic/maspap07/task/cpap_evaluation.html","counting":"1"}
+								,{"module_id":"m_007_011","name":"CPAP Summary","table_id":"20005557","url":"/modules/dynamic/maspap07/task/cpap_summary.html","counting":"1"}
+								,{"module_id":"m_007_012","name":"CPAP Download","table_id":"20005558","url":"/modules/dynamic/maspap07/task/document_3.html","counting":"1"}
+								,{"module_id":"m_007_013","name":"CPAP Therapist / Patient Interaction","table_id":"20005559","url":"/modules/dynamic/maspap07/task/call_log.html","counting":"1"}
+								,{"module_id":"m_007_014","name":"MAS Objective Data","table_id":"20005560","url":"/modules/dynamic/maspap07/task/document_3.html","counting":"1"}
+								,{"module_id":"m_007_015","name":"MAS Dentist / Patient Interaction","table_id":"20005561","url":"/modules/dynamic/maspap07/task/call_log.html","counting":"1"}
+								,{"module_id":"m_007_016","name":"Patient Diary Log Week 1","table_id":"20005562","url":"/modules/dynamic/maspap07/task/patient_diary.html","counting":"1"}
+								,{"module_id":"m_007_017","name":"Patient Diary Log Week 2","table_id":"20005563","url":"/modules/dynamic/maspap07/task/patient_diary.html","counting":"1"}
+								,{"module_id":"m_007_018","name":"Patient Diary Log Week 3","table_id":"20005564","url":"/modules/dynamic/maspap07/task/patient_diary.html","counting":"1"}
+								,{"module_id":"m_007_019","name":"Patient Diary Log Week 4","table_id":"20005565","url":"/modules/dynamic/maspap07/task/patient_diary.html","counting":"1"}
+								,{"module_id":"m_007_020","name":"Patient Diary Log Week 5","table_id":"20005566","url":"/modules/dynamic/maspap07/task/patient_diary.html","counting":"1"}
+								,{"module_id":"m_007_021","name":"Patient Diary Log Week 6","table_id":"20005567","url":"/modules/dynamic/maspap07/task/patient_diary.html","counting":"1"}
+								,{"module_id":"m_007_022","name":"PSG Alice","table_id":"20005568","url":"/modules/dynamic/maspap07/task/psg_alice.html","counting":"1"}
+								,{"module_id":"m_007_023","name":"PSG Compumedics","table_id":"20005569","url":"/modules/dynamic/maspap07/task/psg_compumedics.html","counting":"1"}
+								,{"module_id":"m_007_024","name":"PSG Sandman","table_id":"20005570","url":"/modules/dynamic/maspap07/task/psg_sandman.html","counting":"1"}
+								]},
+							{"name":"8a. Treatment Washout","modules":[
+								{"module_id":"m_008_001","name":"ESS","table_id":"20005571","url":"/modules/dynamic/maspap07/task/ess.html","counting":"1"}
+									]}
+							]}
+							,{
+							"sections":[
+								{"name":"9. Treatment Arm 2 End Point Evaluation","modules":[
+									{"module_id":"m_008_001","name":"24 hour ABPM ","table_id":"20005572","url":"/modules/dynamic/maspap07/task/abpm.html","counting":"1"}
+									,{"module_id":"m_008_002","name":"Pulse Wave Analysis","table_id":"20005573","url":"/modules/dynamic/maspap07/task/pwa.html","counting":"1"}
+									,{"module_id":"m_008_003","name":"AusEd Files","table_id":"20005574","url":"/modules/dynamic/maspap07/task/document_3.html","counting":"1"}
+									,{"module_id":"m_008_004","name":"AusEd Upload","table_id":"20005575","url":"/modules/dynamic/maspap07/task/aused_upload.html","counting":"1"}
+									,{"module_id":"m_008_005","name":"AusEd Data","table_id":"20005576","url":"/modules/dynamic/maspap07/task/aused.html","counting":"1"}
+									,{"module_id":"m_008_006","name":"ESS","table_id":"20005577","url":"/modules/dynamic/maspap07/task/ess.html","counting":"1"}
+									,{"module_id":"m_008_007","name":"FOSQ","table_id":"20005578","url":"/modules/dynamic/maspap07/task/fosq.html","counting":"1"}
+									,{"module_id":"m_008_008","name":"SF-36","table_id":"20005579","url":"/modules/dynamic/maspap07/task/sf36.html","counting":"1"}
+									,{"module_id":"m_008_009","name":"MAS Usage and Side Effects Questionnaire","table_id":"20005580","url":"/modules/dynamic/maspap07/task/mas_evaluation.html","counting":"1"}
+									,{"module_id":"m_008_010","name":"CPAP Usage and Side Effects Questionnaire","table_id":"20005581","url":"/modules/dynamic/maspap07/task/cpap_evaluation.html","counting":"1"}
+									,{"module_id":"m_008_011","name":"Scripted Preference Questionnaire","table_id":"20005582","url":"/modules/dynamic/maspap07/task/scripted_preference.html","counting":"1"}
+									,{"module_id":"m_008_011","name":"CPAP Summary","table_id":"20005583","url":"/modules/dynamic/maspap07/task/cpap_summary.html","counting":"1"}
+									,{"module_id":"m_008_012","name":"CPAP Download","table_id":"20005584","url":"/modules/dynamic/maspap07/task/document_3.html","counting":"1"}
+									,{"module_id":"m_008_013","name":"CPAP Therapist / Patient Interaction","table_id":"20005585","url":"/modules/dynamic/maspap07/task/call_log.html","counting":"1"}
+									,{"module_id":"m_008_014","name":"MAS Objective Data","table_id":"20005586","url":"/modules/dynamic/maspap07/task/document_3.html","counting":"1"}
+									,{"module_id":"m_008_015","name":"MAS Dentist / Patient Interaction","table_id":"20005587","url":"/modules/dynamic/maspap07/task/call_log.html","counting":"1"}
+									,{"module_id":"m_008_016","name":"Patient Diary Log Week 1","table_id":"20005588","url":"/modules/dynamic/maspap07/task/patient_diary.html","counting":"1"}
+									,{"module_id":"m_008_017","name":"Patient Diary Log Week 2","table_id":"20005589","url":"/modules/dynamic/maspap07/task/patient_diary.html","counting":"1"}
+									,{"module_id":"m_008_018","name":"Patient Diary Log Week 3","table_id":"20005590","url":"/modules/dynamic/maspap07/task/patient_diary.html","counting":"1"}
+									,{"module_id":"m_008_019","name":"Patient Diary Log Week 4","table_id":"20005591","url":"/modules/dynamic/maspap07/task/patient_diary.html","counting":"1"}
+									,{"module_id":"m_008_020","name":"Patient Diary Log Week 5","table_id":"20005592","url":"/modules/dynamic/maspap07/task/patient_diary.html","counting":"1"}
+									,{"module_id":"m_008_021","name":"Patient Diary Log Week 6","table_id":"20005593","url":"/modules/dynamic/maspap07/task/patient_diary.html","counting":"1"}
+									,{"module_id":"m_008_022","name":"PSG Alice","table_id":"20005594","url":"/modules/dynamic/maspap07/task/psg_alice.html","counting":"1"}
+									,{"module_id":"m_008_023","name":"PSG Compumedics","table_id":"20005595","url":"/modules/dynamic/maspap07/task/psg_compumedics.html","counting":"1"}
+									,{"module_id":"m_008_024","name":"PSG Sandman","table_id":"20005596","url":"/modules/dynamic/maspap07/task/psg_sandman.html","counting":"1"}
+									]},
+
+							{"name":"Special Forms (Un-Scheduled Encounter)","modules":[
+									{"module_id":"m_009_001","name":"Concom Medications","table_id":"20005597","url":"/modules/dynamic/maspap07/task/concom_medications.html","counting":"1"}
+									,{"module_id":"m_009_002","name":"Adverse Event","table_id":"20005598","url":"/modules/dynamic/maspap07/task/adverse_event.html","counting":"1"}
+									,{"module_id":"m_009_003","name":"File Notes","table_id":"20005600","url":"/modules/dynamic/maspap07/task/File_Notes.html","counting":"1"}
+									,{"module_id":"m_009_004","name":"Serious Adverse Event","table_id":"20005599","url":"/modules/dynamic/maspap07/task/Serious_Adverse_Event.html","counting":"1"}
+									,{"module_id":"m_009_005","name":"Serious Adverse Event Follow Up","table_id":"20005601","url":"/modules/dynamic/maspap07/task/Serious_Adverse_Event_Follow_Up.html","counting":"1"}
+									,{"module_id":"m_009_006","name":"CPAP Call Record","table_id":"20005602","url":"/modules/dynamic/maspap07/task/call_log.html","counting":"1"}
+									,{"module_id":"m_009_007","name":"MAS Titration","table_id":"20005603","url":"/modules/dynamic/maspap07/task/xxx.html","counting":"1"}
+									,{"module_id":"m_009_008","name":"Screening Log","table_id":"20005604","url":"/modules/dynamic/maspap07/task/xxx.html","counting":"1"}
+							]}
+						]}
+					]
+			}
+		}
